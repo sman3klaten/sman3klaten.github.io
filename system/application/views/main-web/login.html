@@ -1,0 +1,31 @@
+ 
+    <div class="col-2-4">
+    <div class="wrap-col">
+    <div class="news mb0">
+    <h2 class='head2'>Log In ke Control Panel</h2>
+				<script languange="javascript">
+
+		function CekUser(txt, alertid) {
+			var input = txt.value;
+			var benar1 = false;
+			if(input!='')
+				benar1=true;
+			if(benar1) { 
+		  		document.getElementById(alertid).style.display='none';
+		  	} else {
+		  		document.getElementById(alertid).style.display='';
+		  	}
+		}
+		function CekPass(txt, alertid) {
+			var input = txt.value;
+			var benar = false;
+			if(input!='')
+				benar=true;
+			if(benar) { 
+		  		document.getElementById(alertid).style.display='none';
+		  	} else {
+		  		document.getElementById(alertid).style.display='';
+		  	}
+		}
+		</script>
+		<form method="post" name="frmguestbook" action="
