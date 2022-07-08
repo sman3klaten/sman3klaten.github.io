@@ -1,0 +1,58 @@
+    <div class="col-2-4">
+    <div class="wrap-col">
+    <div class="news">
+    <h2 class='head2'>Hubungi Kami SMA N 3 Klaten</h2>
+    <div class="extra_wrapper">
+		<strong>Alamat</strong> : Jl. Mayor Sunaryo No 42<br />
+		<strong>Telpon</strong> : (0272) 321885 , 3350233 <br />
+		<strong>Website</strong> : <a href="http://www.sman3klaten.sch.id">www.sman3klaten.sch.id</a><br />
+		<strong>Mailto</strong> : sman3klaten@gmail.co.id<br /><br /><br />
+		<script languange="javascript">
+		function test(s, p) {
+				s = s.nodeType == 1 ? s.value : s;
+				return s == '' || new RegExp(p).test(s);
+		}
+		function isEmail(s) {
+				return test(s, '^[-!#$%&\'*+\\./0-9=?A-Z^_`a-z{|}~]+@[-!#$%&\'*+\\/0-9=?A-Z^_`a-z{|}~]+\.[-!#$%&\'*+\\./0-9=?A-Z^_`a-z{|}~]+$');
+			}
+		function CekEmail(txt, alertid){
+			var input = txt.value;
+			var benar2 = isEmail(input);
+			if(input=='')
+				benar2=false;
+		  	if(benar2) { 
+		  		document.getElementById(alertid).style.display='none';
+		  	} else {
+		  		document.getElementById(alertid).style.display='';
+		  	}
+		}
+		function CekNama(txt, alertid) {
+			var input = txt.value;
+			var benar1 = false;
+			if(input!='')
+				benar1=true;
+			if(benar1) { 
+		  		document.getElementById(alertid).style.display='none';
+		  	} else {
+		  		document.getElementById(alertid).style.display='';
+		  	}
+		}
+		function CekPesan(txt, alertid) {
+			var input = txt.value;
+			var benar = false;
+			if(input!='')
+				benar=true;
+			if(benar) { 
+		  		document.getElementById(alertid).style.display='none';
+		  		document.frmguestbook.simpan.disabled=false;
+		  	} else {
+		  		document.getElementById(alertid).style.display='';
+		  		document.frmguestbook.simpan.disabled=true;
+		  	}
+		}
+		function dissabledButton() {
+			document.frmguestbook.simpan.disabled=true;
+		}
+		window.onload = dissabledButton;
+		</script>
+			<form method="post" name="frmguestbook" action="
