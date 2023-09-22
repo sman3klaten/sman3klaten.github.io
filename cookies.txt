@@ -2,7 +2,6 @@
 # This file format is compatible with Netscape cookies
 www.sman3klaten.sch.id	TRUE	/	FALSE	1999999999	PHPSESSID	8kneovd8ilsho2gvo2qfsl7ia0
 www.sman3klaten.sch.id	TRUE	/	FALSE	1999999999	pengunjung	sudah+berkunjung
-sman3klaten.sch.id	TRUE	/	FALSE	1999999999	poling	sudah+poling
 www.smkmuh3ku.sch.id	TRUE	/	FALSE	1999999999	PHPSESSID	s4pgcis4dtgdq4gqbogf6mj1k4
 www.smkmuh3ku.sch.id	TRUE	/	FALSE	1999999999	pengunjung	sudah+berkunjung
 elearning.sman3klaten.sch.id	TRUE	/	FALSE	1999999999	PHPSESSID	e9q831hbh0jl9u52ok05p6r0k3
@@ -12,5 +11,6 @@ sman3klaten.sch.id	TRUE	/	FALSE	1999999999	PHPSESSID	vm993jeu9mp380msfoda369r80
 .twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_QG+01vQT0U3LVRbm5Sb7NA=="
 .twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A165726107439014935
 twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+sman3klaten.sch.id	TRUE	/	FALSE	1999999999	poling	sudah+poling
 sman3klaten.sch.id	TRUE	/	FALSE	1999999999	pengunjung	sudah+berkunjung
 

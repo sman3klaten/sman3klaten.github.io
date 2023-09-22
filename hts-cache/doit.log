@@ -1,5 +1,5 @@
-https://www.sman3klaten.sch.id -O "/Users/jeffhuen/websites/sman3klaten" -Y -%v
-File generated automatically on Thu, 07 Jul 2022 23:08:15, do NOT edit
+https://sman3klaten.sch.id -O "/Users/jeffhuen/websites/sman3klaten" -%v
+File generated automatically on Fri, 22 Sep 2023 13:54:06, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
